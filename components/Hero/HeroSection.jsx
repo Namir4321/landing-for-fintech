@@ -120,7 +120,7 @@ const HeroSection = () => {
           {/* Optional overlay for better text readability */}
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
-        <div className="absolute left-1/2 -translate-x-1/2 top-40 md:top-[-200px] z-[5] pointer-events-none w-[1600px] h-[1600px]">
+        <div className="absolute left-1/2 -translate-x-1/2 top-0 z-[5] pointer-events-none w-[1400px] h-[1400px]">
           <Image
             ref={actionImgRef}
             src="/action.png"
@@ -132,7 +132,7 @@ const HeroSection = () => {
         </div>
         <div
           ref={heroSectionRef}
-          className="absolute left-5 md:left-auto h-[450px] md:h-120 w-11/12 md:w-84 md:top-52 rounded-lg border-4 border-white z-10"
+          className="absolute left-5 md:left-auto h-[450px] md:h-auto w-11/12 md:w-96 md:top-52 rounded-lg border-4 border-white z-10"
         >
 
           <div
